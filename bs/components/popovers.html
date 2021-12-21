@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Belajar Bootstrap</title>
+  </head>
+  <body>
+    <h1>Belajar Bootstrap</h1>
+
+    <!-- Example: Enable popovers everywhere -->
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+
+      <!-- Example: Using the container option -->
+      $(function () {
+        $('.example-popover').popover({
+          container: 'body'
+        })
+      })
+
+      <!-- Example -->
+      <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/jquery.slim.min.js"></script>
+  </body>
+</html>
